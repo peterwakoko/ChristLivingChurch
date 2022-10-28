@@ -1,0 +1,147 @@
+html{
+    box-sizing: border-box;
+}
+
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    /* border: 1px solid red; */
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color:  #ff9900;
+    height: 80px;
+    color: #fff;
+}
+
+header span{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/church1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.welcome h1{
+    color: white;
+    font-size: 40px;
+}
+
+.container-1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 260px;
+    padding: 80px;
+}
+
+.container-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(./images/church1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 490px;
+    color: #fff;
+}
+
+.container-2 h1,p{
+    margin-bottom: 40px;
+}
+
+.container-3{
+    height: 490px;
+}
+
+.container-3 h1{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 90px;
+margin-bottom: 20px;
+}
+
+.container-3-cards{
+    display: flex;
+    align-items: center;
+}
+
+.container-3-cards div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 290px;
+    margin: 10px;
+    border-radius: 10px;
+    /* border: 1px solid #ccc; */
+    box-shadow: 2px 2px 4px 3px rgba(0, 0, 0, 0.1);
+}
+
+.container-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(./images/church1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 490px;
+    color: #fff;
+}
+
+.container-5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(./images/church1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 490px;
+    color: #fff;
+}
+
+.container-7{
+
+}
+
+.container-8{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ccc;
+    height: 170px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(48, 42, 42);
+    color: #fff;
+    height: 200px;
+}
