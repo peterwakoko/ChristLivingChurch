@@ -9,7 +9,7 @@ html{
 *{
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     /* border: 1px solid red; */
 }
 header{
@@ -20,7 +20,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color:  #ff9900;
+    background-color:  #EC7211;
     height: 80px;
     color: #fff;
 }
@@ -38,8 +38,8 @@ header div li{
 header div a{
     text-decoration: none;
     color: #fff;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 12px;
+    font-weight: 700;
 }
 
 header div a:hover{
@@ -68,6 +68,7 @@ header span{
     text-align: center;
     color: white;
     font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container-1{
@@ -91,12 +92,18 @@ header span{
 }
 .container-2 button{
     padding: 14px;
-    background-color: #ff9900;
+    background-color: #EC7211;
     color: #fff;
     border: none;
     outline: none;
     width: 130px;
     border-radius: 22px;
+}
+
+.container-2 button:hover{
+    color:#fff;
+    background-color: #EB5F07;
+    cursor: pointer;
 }
 
 .container-2 h1,p{
@@ -105,13 +112,14 @@ header span{
 
 .container-3{
     height: 490px;
+    /* border: 1px solid red; */
 }
 
 .container-3 h1{
 display: flex;
 align-items: center;
 justify-content: center;
-margin-top: 90px;
+margin-top: 40px;
 margin-bottom: 20px;
 }
 
@@ -125,7 +133,7 @@ margin-bottom: 20px;
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 290px;
+    height: 320px;
     margin: 10px;
     border-radius: 10px;
     /* border: 1px solid #ccc; */
@@ -146,13 +154,20 @@ margin-bottom: 20px;
 
 .container-4 button{
     padding: 14px;
-    background-color: #ff9900;
+    background-color: #EC7211;/*#ff9900*/
     color: #fff;
     border: none;
     outline: none;
     border-radius: 22px;
     width: 257px;
 }
+
+.container-4 button:hover{
+    color:#fff;
+    background-color: #EB5F07;
+    cursor: pointer;
+}
+
 .container-5{
     display: flex;
     align-items: center;
@@ -174,12 +189,19 @@ margin-bottom: 20px;
 .container-5-cards button{
 padding: 14px;
 margin: 10px;
-background-color: #ff9900;
+background-color: #EC7211;
 color: #fff;
 border: none;
 outline: none;
 border-radius: 22px;
 width: 140px;
+transition: .2s ease-out;
+}
+
+.container-5-cards button:hover{
+    color:#fff;
+    background-color: #EB5F07;
+    cursor: pointer;
 }
 
 .container-5-cards div{
@@ -187,14 +209,72 @@ display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
-height: 260px;
-width: 260px;
+height: 370px;
+width: 320px;
 margin: 10px;
 /* border: 1px solid #ccc; */
 border-radius: 10px;
 text-align: center;
 box-shadow: 2px 2px 4px 3px rgba(0, 0, 0, 0.1);
 }
+
+.container-team {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+height: 450px;
+/* border: 1px solid red; */
+}
+
+.container-member{
+    display: flex;
+align-items: center;
+justify-content: center;
+margin: 2px;
+}
+
+.container-team .meet{
+    margin-bottom: 30px;
+    margin-top: 70px;
+    font-size: xx-large;
+    /* border: 1px solid red; */
+}
+.container-team .names{
+    /* font-size: medium; */
+    margin-top: 30px;
+    /* border: 1px solid blue; */
+}
+
+.container-team .image-container{
+    padding: 2px;
+    /* border: 1px solid green; */
+    margin: 10px;
+}
+.container-team .image-container .gent{
+    height: 200px;
+    border-radius: 50%;
+    width: 200px;
+    /* border: 1px solid blue; */
+    box-shadow: 2px 2px 4px 3px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    background-image: url(./images/pastor.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container-team .image-container .lady{
+    height: 200px;
+    border-radius: 50%;
+    width: 200px;
+    /* border: 1px solid blue; */
+    box-shadow: 2px 2px 4px 3px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    background-image: url(./images/ladyz.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
 .container-6{
     display: flex;
     align-items: center;
@@ -214,12 +294,18 @@ box-shadow: 2px 2px 4px 3px rgba(0, 0, 0, 0.1);
 .btn-social button{
     margin: 10px;
     padding: 14px;
-    background-color: #ff9900;
+    background-color: #EC7211;
     color: #fff;
     border: none;
     outline: none;
     border-radius: 22px;
     width: 120px;
+}
+
+.btn-social button:hover{
+    color:#fff;
+    background-color: #EB5F07;
+    cursor: pointer;
 }
 
 .container-7{
@@ -228,6 +314,10 @@ align-items: center;
 justify-content: center;
 flex-direction: column;
 padding: 100px;
+}
+
+.container-7 .verse{
+    font-size: 16px;
 }
 
 .container-8{
@@ -242,12 +332,18 @@ padding: 100px;
 margin-top: 20px;
 margin-bottom: 20px;
 padding: 14px;
-background-color: #ff9900;
+background-color: #EC7211;
 color: #fff;
 border: none;
 outline: none;
 border-radius: 22px;
 width: 120px;
+}
+
+.container-8 button:hover{
+    color:#fff;
+    background-color: #EB5F07;
+    cursor: pointer;
 }
 
 .container-8 h2{
@@ -269,6 +365,7 @@ footer div{
     /* border: 1px solid red; */
     margin: 40px;
 }
+
 
 
 
