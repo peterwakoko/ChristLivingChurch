@@ -540,6 +540,13 @@ img{
         margin-bottom: 220px;
         margin-top: -60px;
     }
+    .container-1 div{
+        line-height: 28.0001px;
+        font-size: 0.89rem;
+        letter-spacing: 0.216px;
+        color: #1d1d1f;
+        font-weight: bold;
+    }
     .container-3-cards div{
         display: flex;
         align-items: center;
@@ -585,7 +592,7 @@ img{
         justify-content: center;
         align-items: center;
         color: #ffffff;
-        font-size: 2.5rem;
+        font-size: 1.7rem;
         line-height: 52.0075px;
         letter-spacing: 3.144px;
         /* font-weight: 500; */
